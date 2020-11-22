@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css" type="text/css">
+
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:wght@100&display=swap" rel="stylesheet">
+
+
+    <!-- Animate CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+
+    <!-- AOS CSS FILE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <!-- Profile Card Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+    <!-- Title -->
+    <title>Tuition Place</title>
+    <link rel="shortcut icon" type="image/png" href="title.png">
+</head>
+
+<body class="fback">
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h2 class="TH"><span><img src="https://img.icons8.com/color/48/000000/class.png" /></span>Tuition&nbsp;
+                    <span class="TH1">Place</span></h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">
+                            <h5 class="fh"> Home </h5><span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jobs.html">
+                            <h5 class="fh">Jobs</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Find_a_tutor.html">
+                            <h5 class="fh">Find a Tutor&nbsp;</h5>
+                        </a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="Contact.html">
+                          <h5 class="fh">Contact Us&nbsp;</h5>
+                        </a>
+                      </li>
+
+                    <li class="nav-item">
+                        <div class="btn-group">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Signup/Login
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Sign_up.html" id="but">Signup as a Tutor</a>
+                                <a class="dropdown-item" href="Login.html" id="but">Login as a Tutor</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div>
+        <div class="container">
+            <br><br>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+
+
+                <div class="col-md-8 border" id="back" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <h1 class="text-center mt-0">Specifiy Your Requirements</h1>
+                    <hr class="bestied my-4">
+                    <form action="">
+                        <div class="row">
+                            <div class="col">
+                                <label for="tname" id="lal">Heading for the post</label>
+                                <input type="text" name="fname" id="tname"
+                                    placeholder="Ex:Need a tutor for class 5,Dhanmondi">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="nname" id="lal">Full Name</label>
+                                <input type="text" name="lname" id="fname" placeholder="Enter your name">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col">
+                                <label for="lname" id="lal">Location Details</label>
+                                <input type="text" name="lname" id="lname">
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="sname" id="lal">Select Tutor Gender</label>
+                                <select name="Gender" id="gend">
+                                    <option value="Male" class="M">Male</option>
+                                    <option value="Female" class="F">Female</option>
+                                </select>
+                            </div>
+                            <div class="col-6">
+                                <label for="dname" id="lal">Days Per Week</label>
+                                <select name="Days" id="day">
+                                    <option value="1 day/week" class="d1">1</option>
+                                    <option value="2 day/week" class="d1">2</option>
+                                    <option value="3 day/week" class="d1">3</option>
+                                    <option value="4 day/week" class="d1">4</option>
+                                    <option value="5 day/week" class="d1">5</option>
+                                    <option value="6 day/week" class="d1">6</option>
+                                    <option value="7 day/week" class="d1">7</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="Iname" id="lal">Subjects want to learn</label>
+                                <input type="text" name="Iname" id="Iname">
+                            </div>
+                            <div class="col-6">
+                                <label for="Pnum" id="lal">Phone Number</label>
+                                <input type="text" name="num" id="num">
+                            </div>
+                        </div>
+
+                        <label for="tname" id="lal">Additional informations</label>
+                        <textarea name="" id="tarea" rows="3" placeholder="Salary and Subjects"></textarea>
+
+                        <div class="row">
+                            <div class="col-5">
+
+                            </div>
+                            <div class="col-2">
+                                <button id="buts">Submit</button>
+                            </div>
+                            <div class="col-5">
+
+                            </div>
+                        </div><br>
+
+                    </form>
+                </div>
+                <div class="col-md-2 ">
+
+                </div>
+            </div>
+        </div><br><br>
+
+    </div>
+
+
+
+
+
+
+
+    <footer class="foot">
+        <div class=Cont>
+            <h3 class="Tf">Tution Place</h3>
+            <!-- <br> -->
+            <h4 class="Tf">Contact Us</h4>
+            <div class="fIcon">
+                <a href="mailto:mushfique3214@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/mdmushfique.hossain.5" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/shafin69/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-muted mb-1">Copyright Tuition Place © 2020.All rights reserved. </p>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f0b52dff86.js" crossorigin="anonymous"></script>
+
+
+    <!-- Firebase JS -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBYy2YAJckuMusiITLaSrG35HisrsqYzCE",
+            authDomain: "tuition-9e1c7.firebaseapp.com",
+            databaseURL: "https://tuition-9e1c7.firebaseio.com",
+            projectId: "tuition-9e1c7",
+            storageBucket: "tuition-9e1c7.appspot.com",
+            messagingSenderId: "1044131531279",
+            appId: "1:1044131531279:web:357d7616fa889ba43e717a",
+            measurementId: "G-0RYP5289KF"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+
+
+
+    <!-- AOS JS FILE -->
+    <script type="text/javascript">
+        AOS.init({
+            duration: 1100,
+        });
+    </script>
+
+
+
+    <!-- My own JS file -->
+    <script src="../224-Project/Findtut.js"></script>
+</body>
+
+</html>
