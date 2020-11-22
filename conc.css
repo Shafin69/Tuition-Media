@@ -77,7 +77,7 @@ textarea::-webkit-input-placeholder
 {
     width: calc(100% - 520px);
     position: relative;
-    background-image: url(../224-Project/img/tut-back.jpg);
+    background-image: url(img/tut-back.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
