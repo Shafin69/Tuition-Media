@@ -130,7 +130,7 @@ hr.bestied
 #tuts
 {
   
-  background-image:linear-gradient(#00000042,#00000042), url(../224-Project/img/tut-back.jpg);
+  background-image:linear-gradient(#00000042,#00000042), url(img/tut-back.jpg);
   
 }
 
@@ -392,7 +392,7 @@ textarea
 
 .fback
 {
-  background-image:linear-gradient(#00000073,#00000073), url(../224-Project/img/Find_back.jpg);
+  background-image:linear-gradient(#00000073,#00000073), url(img/Find_back.jpg);
 }
 
 .bg-image
@@ -617,7 +617,7 @@ textarea
 /* Choose us picture */
 #whyChoosUs
 {
-  background:linear-gradient(#00000073,#00000073),url(../224-Project/img/Feature.jpg);
+  background:linear-gradient(#00000073,#00000073),url(img/Feature.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -672,7 +672,7 @@ textarea
 
 #jback
 {
-  background: linear-gradient(#00000030,#00000030),url(../224-Project/img/tut-back.jpg);
+  background: linear-gradient(#00000030,#00000030),url(img/tut-back.jpg);
 }
 
 
